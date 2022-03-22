@@ -1,0 +1,42 @@
+{
+	"name": "lexer-csv",
+	"version": "1.0.2",
+	"description": "Simple csv to json file writer",
+	"scripts": {
+		"yarn:tsc": "yarn tsc",
+		"prettier": "prettier --write .",
+		"convert-CSV": "node flexJSON.js",
+		"convert-JSON": "node flexJSON.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dirheimerb/flex-csv-json.git"
+	},
+	"author": "Bradley Dirheimer",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/dirheimerb/flex-csv-json/issues"
+	},
+	"homepage": "https://github.com/dirheimerb/flex-csv-json#readme",
+	"devDependencies": {
+		"csv-writer": "^1.6.0",
+		"flatted": "^3.2.5",
+		"prettier": "^2.6.0",
+		"ts-node": "^10.7.0",
+		"ts-types": "^0.0.9",
+		"typescript": "^4.6.2"
+	},
+	"dependencies": {
+		"lexer-csv": "^1.0.1"
+	},
+	"engines": {
+		"node": ">= 16",
+		"npm": ">= 6.13.0"
+	},
+	"volta": {
+		"node": "12.20.0"
+	},
+	"lint-staged": {
+		"**/*": "prettier --write --ignore-unknown"
+	}
+}

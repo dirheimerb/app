@@ -1,0 +1,7 @@
+node_modules
+.vscode
+dist
+json-csv.ts
+.prettierrc
+exportedts.csv
+exported.json
